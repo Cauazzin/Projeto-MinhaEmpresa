@@ -1,0 +1,87 @@
+.contato {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.contato h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.contato p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.icones-contato {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.icones-contato a {
+  color: #0b0b90;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.icones-contato a i {
+  margin-right: 8px;
+}
+
+.icones-contato a:hover {
+  color: #2b7dbf;
+}
+
+.formulario {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.formulario button {
+  background-color: #0b0b90;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.formulario button:hover {
+  background-color: #2b7dbf;
+}
+
+.rodape{
+    display: flex;
+    background-color: #190B95;
+    align-items: center;
+    padding: 20px 150px;
+    justify-content: space-between;
+
+    & p{
+        font-size: 24px;
+    }
+
+    & .icons{
+        display: flex;
+        gap: 40px;
+    }
+}
